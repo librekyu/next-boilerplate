@@ -72,6 +72,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.3",
+    "husky": "^4.2.5",
     "jest": "^26.4.0",
     "jest-plugin-context": "^2.9.0",
     "lint-staged": "^11.0.0",
@@ -83,6 +84,7 @@
   },
   "husky": {
     "hooks": {
+      "pre-commit": "yarn lint:tsc && lint-staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
