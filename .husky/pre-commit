@@ -1,1 +1,1 @@
-yarn lint:tsc && lint-staged
+husky add .husky/pre-commit
