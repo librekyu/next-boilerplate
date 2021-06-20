@@ -14,8 +14,7 @@
     "test:watch": "jest --watchAll --verbose --coverage",
     "lint": "eslint 'src/**/*'",
     "lint:tsc": "tsc --noEmit",
-    "lint:fix": "eslint 'src/**/*' --fix",
-    "prepare": "node-git-hooks"
+    "lint:fix": "eslint 'src/**/*' --fix"
   },
   "dependencies": {
     "@babel/preset-env": "^7.12.7",

@@ -1,1 +1,0 @@
-yarn lint:tsc && lint-staged
